@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-export REDIS_VERSION=4.0.6
-export REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-4.0.6.tar.gz \
-export REDIS_DOWNLOAD_SHA=769b5d69ec237c3e0481a262ff5306ce30db9b5c8ceb14d1023491ca7be5f6fa
+export REDIS_VERSION=4.0.8
+export REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-4.0.8.tar.gz
+export REDIS_DOWNLOAD_SHA=ff0c38b8c156319249fec61e5018cf5b5fe63a65b61690bec798f4c998c232ad
 export GOSU_VERSION=1.10
 
 export GNUPGHOME="$(mktemp -d)"

@@ -34,7 +34,7 @@ RUN \
 ADD software_dist/redis.tar.gz /tmp
 
 RUN \
-    mv /tmp/redis-4.0.6 /usr/src/redis \
+    mv /tmp/redis-4.0.8 /usr/src/redis \
 &&  cd /usr/src/redis \
 # disable Redis protected mode [1] as it is unnecessary in context of Docker
 # (ports are not automatically exposed when running inside Docker, but rather explicitly by specifying -p / -P)
