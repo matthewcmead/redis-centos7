@@ -13,4 +13,4 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 docker run -it --rm -v "$DIR":/project centos:7 /project/getdeps.sh
-docker build -t matthewcmead/redis .
+docker build -t matthewcmead/redis-centos7 .

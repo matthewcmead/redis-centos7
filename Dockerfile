@@ -27,9 +27,8 @@ RUN \
 ADD software_dist/gosu /usr/local/bin
 ADD software_dist/gosu.asc /usr/local/bin
 
-RUN \
-    chmod +x /usr/local/bin/gosu \
-&&  gosu nobody true
+RUN chmod +x /usr/local/bin/gosu
+RUN gosu nobody true
 
 ADD software_dist/redis.tar.gz /tmp
 
